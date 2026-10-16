@@ -19,8 +19,8 @@ const CONFIG = {
   scan:     "",
 
   // Socials
-  twitter:  "https://x.com/solster_x",
-  telegram: "https://t.me/solster_tg",
+  twitter:  "https://x.com/solsteronx",
+  telegram: "https://t.me/solsterontg",
 
   supply:   "",
 };
