@@ -10,13 +10,13 @@
      · empty link      → button points at the X account instead
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
-  // Solana mint address.
-  contract: "GpDvSvNdwx8VRK7JimFdtqAufjckLUPFB9Ht63qrpump",
+  // Solana mint address. "TBA" until the mint is published.
+  contract: "TBA",
 
   // Trading + chart links
-  buy:      "https://pump.fun/coin/GpDvSvNdwx8VRK7JimFdtqAufjckLUPFB9Ht63qrpump",
-  chart:    "https://dexscreener.com/solana/GpDvSvNdwx8VRK7JimFdtqAufjckLUPFB9Ht63qrpump",
-  scan:     "https://solscan.io/token/GpDvSvNdwx8VRK7JimFdtqAufjckLUPFB9Ht63qrpump",
+  buy:      "",
+  chart:    "",
+  scan:     "",
 
   // Socials
   twitter:  "https://x.com/solster_x",
@@ -69,7 +69,7 @@ const CONFIG = {
 
   if (!isValid) {
     box.classList.add("is-pending");
-    text.textContent = "Coming soon";
+    text.textContent = "TBA";
     btnText.textContent = CONFIG.twitter ? "Follow" : "Soon";
     btn.addEventListener("click", () => {
       if (!CONFIG.twitter) return;
