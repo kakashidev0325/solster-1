@@ -19,7 +19,7 @@ const CONFIG = {
   scan:     "",
 
   // Socials
-  twitter:  "https://x.com/solsteronx",
+  twitter:  "https://x.com/sol_ster_x",
   telegram: "https://t.me/solsterontg",
 
   supply:   "",
